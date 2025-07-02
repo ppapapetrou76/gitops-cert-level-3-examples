@@ -9,11 +9,11 @@ spec:
   generators:
   - pullRequest:
       github:
+        labels:
+          - preview
         owner: ppapapetrou76
         repo: gitops-cert-level-3-examples
-        labels:
-        - preview
-      requeueAfterSeconds: 60
+      requeueAfterSeconds: 20
   template:
     metadata:
       name: 'myapp-{{.branch}}'
