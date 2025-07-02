@@ -11,6 +11,8 @@ spec:
       github:
         owner: ppapapetrou76
         repo: gitops-cert-level-3-examples
+        labels:
+        - preview
       requeueAfterSeconds: 60
   template:
     metadata:
