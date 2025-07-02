@@ -10,7 +10,7 @@ spec:
   - pullRequest:
       github:
         labels:
-          - preview
+          - preview-ready
         owner: ppapapetrou76
         repo: gitops-cert-level-3-examples
       requeueAfterSeconds: 20
