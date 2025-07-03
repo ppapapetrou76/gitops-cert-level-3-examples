@@ -9,9 +9,6 @@ spec:
   generators:
   - pullRequest:
       github:
-        labels:
-          - preview-ready
-          - preview
         owner: ppapapetrou76
         repo: gitops-cert-level-3-examples
       requeueAfterSeconds: 20
